@@ -31,8 +31,7 @@ nav {
 }
 
 .proj-name {
-    font-size: 1.5em;
-    color: #579412;
+    font-size: 2em;
 }
 
 .about {
@@ -62,10 +61,11 @@ nav {
 }
 
 .fact-card {
-    background-color: #97ca5d;;
+    background-color: #97ca5d;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+    font-size: 1.5em;
 }
 
 @media (min-width: 450px){
@@ -73,10 +73,12 @@ nav {
     .header-image{
         height: 450px;
     }
+}
 
-    .cat-item-container {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+@media (min-width: 450px) and (max-width: 650px) {
+    .cat-item {
+        width: 400px;
+        height: 350px;
     }
 }
 
@@ -105,10 +107,25 @@ nav {
 
 }
 
-@media (min-width: 765px){
+@media (min-width: 800px) and (max-width: 900px) {
+    .cat-item {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .cat-item {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px){
 
     .header-image{
         height: 500px;
+        width: 100%;
     }
 
     .about {
