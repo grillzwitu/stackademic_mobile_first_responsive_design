@@ -81,7 +81,7 @@ footer {
 }
 
 .sub-label {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -89,6 +89,25 @@ footer {
     background-color: #97ca5d;
     border: #97ca5d inset;
     cursor: pointer;
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a {
+    color: black;
+}
+
+.links a i {
+    font-size: 1.5em;
+}
+
+.sign {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 @media (min-width: 450px){
